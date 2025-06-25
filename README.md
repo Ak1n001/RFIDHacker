@@ -31,4 +31,28 @@ MIFARE Classic cards are considered insecure for sensitive applications. This to
 ## ✍️ Author
 Akın – Computer Engineer & cybersecurity enthusiast
 
-![image](https://github.com/user-attachments/assets/98ffd8da-947a-4ad9-b1de-4e432921dade)
+## 🔌 Arduino Setup
+
+### 1. Wiring the MFRC522 Module
+
+Connect your MFRC522 RFID reader to your Arduino using the standard SPI configuration:
+
+![Arduino Setup](https://github.com/user-attachments/assets/98ffd8da-947a-4ad9-b1de-4e432921dade)
+
+### 2. Installing the RFID Library
+
+Download the [MFRC522 RFID library](https://github.com/miguelbalboa/rfid):
+
+![Download Library](https://github.com/user-attachments/assets/fc347eee-1cc3-49a4-999d-9bd6fa5b15f0)
+
+### 3. Importing the Library into Arduino IDE
+
+After downloading the ZIP file:
+- Open Arduino IDE
+- Navigate to `Sketch > Include Library > Add .ZIP Library...`
+- Select the downloaded file
+
+![Add to IDE](https://github.com/user-attachments/assets/739be873-ce29-4a56-9eb2-0f5b7ee1caf4)
+
+Once complete, you're ready to upload the sketchs!
+
